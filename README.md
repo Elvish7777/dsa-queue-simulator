@@ -1,11 +1,11 @@
 # dsa-queue-simulator
 Traffic Light Simulation using SDL3
 
-Overview
+**Overview**
 
 This project is a Traffic Light Simulation built with C and SDL3, designed to simulate the movement of vehicles based on traffic light changes and predefined road rules.
 
-Key Features
+**Key Features**
 
 Traffic Light System: Lights switch at regular intervals to control vehicle movement.
 
@@ -15,7 +15,11 @@ Intersection Handling: The simulation includes roads with three lanes per direct
 
 Basic Rendering: Roads and pedestrian crossings are visually represented.
 
-Current Progress
+Here is the traffic simulation GIF:
+
+![Final Traffic GIF](gif/final%20traffic.gif)
+
+**Current Progress**
 
 ✅ Vehicle Generator: Generates vehicles with unique attributes and writes data to files.
 
@@ -23,9 +27,9 @@ Current Progress
 
 🚧 Simulation Execution: Works up to lane switching; dequeue implementation and light transitions are in progress.
 
-System Components
+**System Components**
 
-1. Vehicle Generator
+**1. Vehicle Generator**
 
 The generator continuously creates vehicles and assigns them:
 
@@ -45,11 +49,11 @@ Movement state:
 
 The generated data is stored in text files (e.g., AL2.txt).
 
-2. Traffic Simulator
+**2. Traffic Simulator**
 
 The simulator reads vehicle data from the generator's output and simulates their movement based on predefined traffic rules. It processes vehicles from the queue and updates their state as they transition through lanes.
 
-3. Lane Movement Rules
+**3. Lane Movement Rules**
 
 L3 lanes always turn left:
 
@@ -71,7 +75,7 @@ CL2 → AL2 or BL1
 
 Vehicles follow these rules as they move through the simulation.
 
-4. Data Exchange Between Components
+**4. Data Exchange Between Components**
 
 The generator writes vehicle data to files that are continuously updated.
 
