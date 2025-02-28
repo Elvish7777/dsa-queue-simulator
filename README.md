@@ -1,3 +1,3 @@
 # dsa-queue-simulator
 introduction
-features
+featuress
