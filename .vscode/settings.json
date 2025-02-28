@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "traffic_simulator.h": "c",
+    "traffic_control.h": "c",
+    "simulator.h": "c",
+    "simulatorvehicle.h": "c",
+    "vehiclequeue.h": "c",
+    "road.h": "c",
+    "sdl.h": "c",
+    "stdlib.h": "c",
+    "stdio.h": "c",
+    "string.h": "c",
+    "animation.h": "c"
+  }
+}
